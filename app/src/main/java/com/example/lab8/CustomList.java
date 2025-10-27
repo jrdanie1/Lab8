@@ -50,8 +50,13 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     /*** this adds a city object to the list*for the first phase it will beempty * @param city*/
-    public void addCity(City city){
-
+    /**
+     * This adds a City object to the list.
+     * In the second phase, you can add the city.
+     * @param city the city to add
+     */
+    public void addCity(City city) {
+        cities.add(city);
     }
 
 }
