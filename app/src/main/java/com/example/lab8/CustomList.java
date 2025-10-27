@@ -58,5 +58,13 @@ public class CustomList extends ArrayAdapter<City> {
     public void addCity(City city) {
         cities.add(city);
     }
+    /**
+     * Checks if the list contains a given city.
+     * @param city the city to check
+     * @return true if the city exists in the list, false otherwise
+     */
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
 
 }
